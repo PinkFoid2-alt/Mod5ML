@@ -4,7 +4,7 @@ import requests
 API_URL = "https://codigos-mod-5-machine-learning.onrender.com/predict"
 
 st.set_page_config(
-    page_title="Clasificador de Aguas Subterráneas",
+    page_title="Clasificador de Aguas",
     page_icon="💧",
     layout="centered",
 )
@@ -133,4 +133,3 @@ if enviar:
 
         except requests.exceptions.RequestException as e:
             st.error(f"No se pudo conectar con el modelo: {e}")
-            
