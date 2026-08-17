@@ -168,6 +168,8 @@ st.markdown(
     <div class="header-container">
         <div class="header-title">💧 Clasificador de Aguas Subterráneas</div>
         <div class="header-subtitle">Evaluación de la calidad del agua mediante modelo predictivo</div>
+        <div class="header-subtitle">Por el servicio gratuito de Render, el primer request fallará, se recomienda que luego del fallo inicial se vuelva a evaluar y dará el resultado sin inconvenientes</div>
+        
     </div>
     <hr class="header-line">
     """,
